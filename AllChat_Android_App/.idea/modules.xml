@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FireConnect.iml" filepath="$PROJECT_DIR$/FireConnect.iml" group="FireConnect" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="FireConnect/app" />
+    </modules>
+  </component>
+</project>

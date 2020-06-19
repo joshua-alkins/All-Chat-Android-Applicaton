@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/DialogLayout"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/Select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Select"
+        android:textColor="@color/quantum_white_100"
+        android:background="@drawable/text_entry_field"
+        android:backgroundTint="@color/colorPrimaryDark"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/Icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:checked="true"
+        android:drawablePadding="-20dp"
+        android:gravity="center"
+        android:text=".pdf " />
+
+    <RadioButton
+        android:id="@+id/Icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawablePadding="-20dp"
+        android:gravity="center"
+        android:text=".docx " />
+        <RadioButton
+            android:id="@+id/Icon3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="-20dp"
+            android:gravity="center"
+            android:text=".png / .jpg " />
+        <RadioButton
+            android:id="@+id/Icon4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="-20dp"
+            android:gravity="center"
+            android:text=".mp3 / .mp4 " />
+        <RadioButton
+            android:id="@+id/Icon5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="-20dp"
+            android:gravity="center"
+            android:text=".mp4" />
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/Filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:gravity="center"
+        android:text="File Name" />
+
+    <Button
+        android:id="@+id/Fupload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="File Upload"
+        android:textColor="@color/quantum_white_100"
+        android:background="@drawable/text_entry_field"
+        android:backgroundTint="@color/colorPrimaryDark"/>
+
+
+
+</LinearLayout>
